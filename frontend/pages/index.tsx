@@ -7,14 +7,14 @@ import Card, { CardProps, CardType } from 'components/Card';
 import Typography from 'components/Typography';
 import Container from 'components/Container';
 import Grid from 'components/Grid';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, Theme as AugmentedTheme } from '@material-ui/core/styles';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: AugmentedTheme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
   jumboContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.grey[200],
     padding: theme.spacing(8, 0, 6),
   },
   cardGrid: {

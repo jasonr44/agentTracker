@@ -6,7 +6,7 @@ exports[`App Matches snapshot 1`] = `
     class="MuiContainer-root MuiContainer-disableGutters"
   >
     <div
-      class="makeStyles-root-1"
+      class="makeStyles-root-8"
     >
       <header
         class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
@@ -16,7 +16,7 @@ exports[`App Matches snapshot 1`] = `
         >
           <button
             aria-label="menu"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-2 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-9 MuiIconButton-colorInherit MuiIconButton-edgeStart"
             tabindex="0"
             type="button"
           >
@@ -39,7 +39,7 @@ exports[`App Matches snapshot 1`] = `
             />
           </button>
           <h6
-            class="MuiTypography-root makeStyles-title-3 MuiTypography-h6"
+            class="MuiTypography-root makeStyles-title-10 MuiTypography-h6"
           >
             Home
           </h6>
@@ -60,63 +60,283 @@ exports[`App Matches snapshot 1`] = `
         </div>
       </header>
     </div>
-    <div
-      class="MuiPaper-root MuiCard-root makeStyles-root-4 MuiPaper-elevation1 MuiPaper-rounded"
-      data-testid="card-component"
-    >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
-      >
-        <img
-          alt="Valorant Content"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
-          height="140"
-          src="/public/images/gunBundle.jpg"
-          title="Valorant Content"
-        />
-        <div
-          class="MuiCardContent-root"
-        >
-          <h2
-            class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
-          >
-            Valorant Content
-          </h2>
-          <p
-            class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
-          >
-            See the current in game content.
-          </p>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+    <main>
       <div
-        class="MuiCardActions-root MuiCardActions-spacing"
+        class="makeStyles-jumboContent-2"
       >
-        <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
-          name="Share"
-          tabindex="0"
-          type="button"
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthSm"
         >
-          <span
-            class="MuiButton-label"
+          <h1
+            class="MuiTypography-root MuiTypography-h2 MuiTypography-colorTextPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
           >
-            Share
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            Welcome to AgentTracker
+          </h1>
+          <p
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary MuiTypography-paragraph MuiTypography-alignCenter"
+          >
+            Below you'll find some useful options for tracking your overall progress and the Valorant game itself. Explore and have fun... as Phoenix likes to say:
+          </p>
+          <h2
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-colorTextPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+          >
+            "Come on, let's go!"
+          </h2>
+        </div>
       </div>
-    </div>
+      <div
+        class="MuiContainer-root makeStyles-cardGrid-3 MuiContainer-maxWidthMd"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root makeStyles-root-11 MuiPaper-elevation1 MuiPaper-rounded"
+              data-testid="card-component"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <img
+                  alt="My Performance"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+                  height="140"
+                  src="/images/myPerformance.jpg"
+                  title="My Performance"
+                />
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <h2
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+                  >
+                    My Performance
+                  </h2>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                  >
+                    How have you faired your last few games? Let's take a look.
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                  name="Share"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Share
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root makeStyles-root-11 MuiPaper-elevation1 MuiPaper-rounded"
+              data-testid="card-component"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <img
+                  alt="Agent Lookup"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+                  height="140"
+                  src="/images/agentLookup.jpg"
+                  title="Agent Lookup"
+                />
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <h2
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+                  >
+                    Agent Lookup
+                  </h2>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                  >
+                    Maybe the most import thing to consider is the right agent for the job.
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                  name="Share"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Share
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root makeStyles-root-11 MuiPaper-elevation1 MuiPaper-rounded"
+              data-testid="card-component"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <img
+                  alt="Valorant Guns"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+                  height="140"
+                  src="/images/gunBundle.jpg"
+                  title="Valorant Guns"
+                />
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <h2
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+                  >
+                    Valorant Guns
+                  </h2>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                  >
+                    Guns compliment your playstyle. What loadout will you choose?
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                  name="Share"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Share
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root makeStyles-root-11 MuiPaper-elevation1 MuiPaper-rounded"
+              data-testid="card-component"
+            >
+              <button
+                class="MuiButtonBase-root MuiCardActionArea-root"
+                tabindex="0"
+                type="button"
+              >
+                <img
+                  alt="Maps"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+                  height="140"
+                  src="/images/haven.jpg"
+                  title="Maps"
+                />
+                <div
+                  class="MuiCardContent-root"
+                >
+                  <h2
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+                  >
+                    Maps
+                  </h2>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                  >
+                    The map pool changes slowly, but when it does there's a lot to learn.
+                  </p>
+                </div>
+                <span
+                  class="MuiCardActionArea-focusHighlight"
+                />
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+                  name="Share"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Share
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </DocumentFragment>
 `;

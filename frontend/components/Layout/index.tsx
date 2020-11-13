@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
+import Container, { ContainerProps } from '@material-ui/core/Container';
 
-export default ({ children }) => {
+export default ({ children, ...props }: ContainerProps): JSX.Element => {
   return (
-    <Container disableGutters maxWidth={false}>
+    <Container {...props} disableGutters maxWidth={false}>
       {children}
     </Container>
   );

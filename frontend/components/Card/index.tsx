@@ -37,13 +37,13 @@ const renderActions = (actions: CardAction[]) => {
 
 export * from './types';
 
-export default function CardComponent({
+const CardComponent = ({
   type = CardType.DEFAULT,
   title = '',
   content = '',
   actions = [],
   image = '',
-}: CardProps) {
+}: CardProps): JSX.Element => {
   const classes = useStyles();
 
   return (
@@ -70,4 +70,6 @@ export default function CardComponent({
       <CardActions>{renderActions(actions)}</CardActions>
     </Card>
   );
-}
+};
+
+export default CardComponent;

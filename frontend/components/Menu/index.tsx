@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuBar from './MenuBar';
 
-export default () => {
+export default (): JSX.Element => {
   return <MenuBar />;
 };
